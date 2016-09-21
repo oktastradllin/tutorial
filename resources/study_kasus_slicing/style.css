@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:segoe ui,arial,sans-serif;
+}
+body{
+	background-color:#f8fbf4;
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size:14px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"Museo Slab 500", impact,arial,sans-serif;
+	font-weight: normal;
+}
+#wrapper{
+	width:720px;
+	margin:0 auto;
+}
+#header{ 
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding:30px 0 
+}
+#logo{ 
+	font-family:"Museo Slab 500", impact, sans-serif;
+	float:left;
+	font-size: 40px;
+}
+#menu{ 
+	float:right; 
+	list-style:none;
+	margin-top:10px;
+}
+#menu li{ display: inline }
+#menu li a{ 
+	padding:5px 10px;
+	border-right: 1px dashed #aeb59c;
+	text-decoration: none;
+	color:black;
+}
+#menu li:last-child a{ border-right:none }
+#slideshow{
+	position:relative;
+}
+#slideshow h1{
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	font-weight:normal;
+}
+#slideshow h1 a{
+	color:black;
+	font-family:"Museo Slab 500",impact,sans-serif;
+	font-weight: normal;
+	text-decoration:none;
+}
+#langkah{
+	overflow:hidden;
+	background:white;
+	margin:20px 0;
+}
+#langkah h2{
+	padding:10px;
+}
+#langkah .kolom{
+	width:190px;
+	margin:10px;
+	padding:0 30px 0 0;
+	float:left;
+	background:url("images/langkah.jpg") right top no-repeat;
+}
+#langkah .kolom:last-child{background:none;}
+#footer{
+	border-top:1px dashed #aeb59c;
+	padding:10px;
+}
+#footer p{float:left;}
+#footer-menu{
+	float:left;
+	margin-left:30px;
+	list-style:none;
+}
+
+#footer-menu li{
+	display:inline;
+	margin-right:20px;
+}
+#footer-menu li a{
+	color:#777;
+	text-decoration:none;
+}
+.bjqs-next a, .bjqs-prev a {
+	color: orange;
+	text-decoration: none;
+	background: white;
+	padding: 5px 10px;
+}
